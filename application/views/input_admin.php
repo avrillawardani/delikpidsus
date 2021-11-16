@@ -22,15 +22,15 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form method="POST" action="<?php echo base_url();?>index.php/Input/RP1/input_rp1">
+              <form method="POST" action="<?php echo base_url();?>index.php/Input_admin/input_admin">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputNama">Masukkan Username</label>
-                    <input type="text" class="form-control" name="sumber_penerima" placeholder="Masukkan Username Baru">
+                    <input type="text" class="form-control" name="username" placeholder="Masukkan Username Baru">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputIsi">Masukkan Password</label>
-                    <input type="text" name="isi_ringkas" class="form-control" placeholder="Masukkan Password Baru">
+                    <input type="text" name="password" class="form-control" placeholder="Masukkan Password Baru">
                   </div>
                 </div>
                 <!-- /.card-body -->

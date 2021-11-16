@@ -42,18 +42,19 @@
                     </tr>
                   </thead>
                   <tbody>
-                    
-
+                    <?php 
+                           $a = 1;
+                    foreach ($admin as $key){ ?>
                     <tr>
-                      <td>1.</td>
-                      <td>Superadmin</td>
-                      <td>Superadmin</td>
+                      <td><?php echo $a; $a++; ?>.</td>
+                      <td><?php echo $key->username; ?></td>
+                      <td><?php echo $key->password; ?></td>
                       <td>
                         <button class="btn btn-primary far fa-edit"></button>
                         <button class="btn btn-danger fas fa-trash-alt"></button>
                       </td>
                     </tr>
-                      
+                    <?php } ?>
                   </tbody>
                 </table>
               </div>

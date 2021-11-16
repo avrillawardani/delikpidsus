@@ -242,7 +242,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url();?>asset/layout/top-nav-sidebar.html" class="nav-link">
+                <a href="<?php echo base_url();?>index.php/Login/logout" class="nav-link">
                   <!-- <i class="far fa-circle nav-icon"></i> -->
                   <p>Logout</p>
                 </a>

@@ -35,15 +35,15 @@
               <h3>DELIK PIDSUS</h3>
               <p class="mb-4">DATA ELEKTRONIK LAPORAN TERINTEGRASI & TERKINI PIDANA KHUSUS</p>
             </div>
-            <form action="<?php echo base_url();?>index.php/read/RP1" method="post">
+            <form action="<?php echo base_url();?>index.php/Login/do_login" method="POST">
               <div class="form-group first">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" id="username">
+                <input type="text" class="form-control" name="username" id="username">
 
               </div>
               <div class="form-group last mb-4">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
+                <input type="password" class="form-control" name="password" id="password">
                 
               </div>
               
@@ -55,7 +55,7 @@
                <!--  <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span>  -->
               </div>
 
-              <input type="submit" value="Log In" class="btn btn-block btn-primary" href="<?php echo base_url();?>index.php/read/RP1">
+              <input type="submit" value="Log In" class="btn btn-block btn-primary" >
 
              <!--  <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
               
