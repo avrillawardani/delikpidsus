@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 10 Nov 2021 pada 10.13
+-- Generation Time: 05 Des 2021 pada 04.58
 -- Versi Server: 10.1.10-MariaDB
 -- PHP Version: 7.0.3
 
@@ -19,6 +19,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `register_pidsus`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(5) NOT NULL,
+  `username` varchar(10) DEFAULT NULL,
+  `password` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `admin`
+--
+
+INSERT INTO `admin` (`id`, `username`, `password`) VALUES
+(1, 'superadmin', 'superadmin'),
+(2, 'wisnu', 'wisnu');
 
 -- --------------------------------------------------------
 
@@ -41,7 +61,9 @@ CREATE TABLE `rp1` (
 
 INSERT INTO `rp1` (`id`, `sumber_penerima`, `isi_ringkas`, `identitas_terlapor`, `pilihan`, `ket`) VALUES
 (21, 'Avrilla Eta', 'Pencurian sepeda motor', 'Indah Septiani', 'Diteruskan', '-'),
-(22, 'Avrilla Eta Cahya Wardani', 'Dua hari lalu ada kejadian pencurian di dekat Alfamart Cuwik.', 'Orang Ketiga', 'Diarsipkan', 'Sampai sini saja, takutnya salah orang, atau salah lihat, atau salah paham');
+(22, 'Avrilla Eta Cahya Wardani', 'Dua hari lalu ada kejadian pencurian di dekat Alfamart Cuwik.', 'Orang Ketiga', 'Diarsipkan', 'Sampai sini saja, takutnya salah orang, atau salah lihat, atau salah paham'),
+(23, '', '', '', '', ''),
+(24, '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -72,6 +94,12 @@ INSERT INTO `rp2` (`id`, `tanggal`, `kasus`, `jaksa`, `pelapor`, `terlapor`, `pe
 --
 
 --
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `rp1`
 --
 ALTER TABLE `rp1`
@@ -88,10 +116,15 @@ ALTER TABLE `rp2`
 --
 
 --
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
 -- AUTO_INCREMENT for table `rp1`
 --
 ALTER TABLE `rp1`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `rp2`
 --
