@@ -22,8 +22,10 @@
                     <h3 class="card-title">Register Perkara Tahap Penyelidikan</h3>
                   </div>
                   <div class="col-2">
-                    <a class="btn btn-outline-primary fa fa-plus-alt" href="<?php echo base_url();?>index.php/input/RP3">Tambah Baru</a>
-                  </div>
+                <a class="btn btn-primary icon ion-plus" href="<?php echo base_url();?>index.php/input/RP3"></a>
+
+                <a class="btn btn-outline-primary icon ion-document-text" href=""></a>
+              </div>
                 </div>
               </div>
               <!-- /.card-header -->

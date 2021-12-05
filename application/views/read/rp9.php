@@ -22,7 +22,11 @@
                     <h3 class="card-title">Register Pemeriksaan Tambahan</h3>
                   </div>
                   <div class="col-2">
-                    <a class="btn btn-outline-primary fa fa-plus-alt" href="<?php echo base_url();?>index.php/input/RP5">Tambah Baru</a>
+                   <div class="col-2">
+                <a class="btn btn-primary icon ion-plus" href="<?php echo base_url();?>index.php/input/RP3"></a>
+
+                <a class="btn btn-outline-primary icon ion-document-text" href=""></a>
+              </div>
                   </div>
                 </div>
               </div>

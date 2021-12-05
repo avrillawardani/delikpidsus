@@ -119,55 +119,55 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/fixed-topnav.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP6" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-6) Register Pemberitahuan Dimulainya Penyidikan/Dihentikannya penyidikan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/fixed-footer.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP7" class="nav-link">
                       <!--  <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-7) Register Penerimaan Berkas Perkara Tahap Pertama</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP8" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-8) Register Pemeriksaan Tambahan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP9" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-9) Register Tahap Penuntutan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP10" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-10) Register Perkara Tahap Penuntutan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP11" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-11) Register Upaya Hukum dan Grasi</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP512" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-12) Register Pelaksanaan Putusan/Pidana Bersyarat dan Gugurnya Kewenangan Mengeksekusi Serta Pelepasan Bersyarat</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP13" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-13) Register Perkara Acara Pemeriksaan Cepat dan Eksekusi</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP14" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-14) Register/Buku Perkara Jaksa Penuntut Umum</p>
                     </a>

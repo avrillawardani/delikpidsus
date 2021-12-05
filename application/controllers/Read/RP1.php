@@ -8,12 +8,15 @@ class RP1 extends CI_Controller {
 	parent::__construct();
 		
 		$this->load->model('M_RP1');
+		
 	}
 
 
 	public function index()
 	{
+
 		$data['rp1']=$this->M_RP1->view_rp1('rp1');
 		$this->template->load('static','read/rp1', $data);
 	}
+
 }
