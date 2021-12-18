@@ -155,7 +155,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>index.php/read/RP512" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RP12" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RP-12) Register Pelaksanaan Putusan/Pidana Bersyarat dan Gugurnya Kewenangan Mengeksekusi Serta Pelepasan Bersyarat</p>
                     </a>
@@ -184,19 +184,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>index.php/#" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RT1" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RT-1) Register Tahanan Tahap Penyidikan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/top-nav-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RT2" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RT-2) Register Surat Perpanjangan Penahanan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/boxed.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RT3" class="nav-link">
                       <!--  <i class="far fa-circle nav-icon"></i> -->
                       <p>(RT-3) Register Tahanan Perkara Tahap Penuntutan</p>
                     </a>
@@ -213,13 +213,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>index.php/#" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RB1" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RB-1) Register Benda Sitaan</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url();?>asset/layout/top-nav-sidebar.html" class="nav-link">
+                    <a href="<?php echo base_url();?>index.php/read/RB2" class="nav-link">
                       <!-- <i class="far fa-circle nav-icon"></i> -->
                       <p>(RB-2) Register Barang Bukti dan Barang Temuan</p>
                     </a>
